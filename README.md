@@ -1,5 +1,7 @@
 # SQL Query Builder
 ## Description
+An ORM written in C#
+
 ### Implements the [Builder pattern](https://refactoring.guru/design-patterns/builder)
 Chained methods create an sql query  
 ex: `sql.Select.All.Where("<user_table.id>").Equals(<id>).First<User>();`
